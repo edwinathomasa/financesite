@@ -1,0 +1,8 @@
+@import '../utility/variables.css';
+
+.nav-link {
+  text-decoration: none;
+  color: var(--color-primary);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+}

@@ -1,0 +1,15 @@
+@import '../utility/variables.css';
+
+.main-view-layout {
+  background-color: var(--color-light-gray);
+  color: var(--color-primary);
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.main-view-content {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
