@@ -1,0 +1,34 @@
+@import './utility/variables.css';
+
+.navigation-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-white);
+  padding: var(--spacing-sm);
+  border-bottom: var(--border-thin) var(--color-border-gray);
+  z-index: var(--z-fixed);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  height: 80px;
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  padding-right: var(--spacing-lg);
+  gap: var(--spacing-lg);
+}
+
+
+.nav-separator {
+  color: var(--color-gray);
+}
