@@ -1,4 +1,5 @@
 import NavigationBar from '../NavigationBar'
+import Footer from '../Footer'
 import './MainViewLayout.css'
 
 interface MainViewLayoutProps {
@@ -12,6 +13,7 @@ function MainViewLayout({ children }: MainViewLayoutProps) {
       <main className="main-view-content">
         {children}
       </main>
+      <Footer />
     </div>
   )
 }
