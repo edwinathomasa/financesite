@@ -81,6 +81,11 @@ export const ABOUT_CONTENT = {
   description: "We support companies with everything from financial services to strategic consulting, and business development to create sustainable growth. Regardless of whether it is an audit, salary services, VAT accounting or acquisitions - we help companies and entrepreneurs to develop their businesses."
 }
 
+export const CONTACT_CONTENT = {
+  title: "Contact Us",
+  description: "Get in touch with our financial services team for support and inquiries."
+}
+
 export const NAVIGATION_DATA = {
   routes: {
     home: "/",
@@ -104,5 +109,6 @@ export default {
   HOME_CONTENT,
   SERVICES_CONTENT,
   ABOUT_CONTENT,
+  CONTACT_CONTENT,
   NAVIGATION_DATA
 }

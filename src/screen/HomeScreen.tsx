@@ -2,6 +2,7 @@ import MainViewLayout from '../components/view/MainViewLayout'
 import MovingImages from '../components/MovingImages'
 import LinkButton from '../components/atom/LinkButton'
 import { HOME_CONTENT } from '../data/CompanyData'
+import './styling/HomeScreen.css'
 
 function HomeScreen() {
   const homeImages = [
@@ -19,12 +20,12 @@ function HomeScreen() {
   return (
     <MainViewLayout>
       <MovingImages images={homeImages} texts={homeTexts} speed={2000} />
-      <div style={{ padding: '40px 20px', textAlign: 'justify', maxWidth: '800px' }}>
+      <div className="home-content">
         <h1>{HOME_CONTENT.title}</h1>
         {HOME_CONTENT.paragraphs.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>
         ))}
-        <div style={{ marginTop: '30px' }}>
+        <div className="home-button-container">
           <LinkButton to="/services" variant="primary" size="lg">
             Services
           </LinkButton>
