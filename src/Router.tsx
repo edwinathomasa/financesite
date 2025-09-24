@@ -7,8 +7,10 @@ import ResourcesScreen from './screen/ResourcesScreen'
 import ContactUsScreen from './screen/ContactUsScreen'
 
 function AppRouter() {
+  const basename = import.meta.env.PROD && !import.meta.env.VERCEL ? '/financesite' : ''
+
   return (
-    <Router>
+    <Router basename={basename}>
       <Routes>
         <Route path="/" element={<HomeScreen />} />
         <Route path="/about" element={<AboutScreen />} />
