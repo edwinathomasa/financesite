@@ -8,7 +8,9 @@
       "Bash(echo:*)",
       "Bash(VERCEL=1 echo \"VERCEL with flag: $VERCEL\")",
       "Bash(VERCEL=1 VERCEL_ENV=production npm run build)",
-      "Bash(VERCEL=1 VERCEL_ENV=production npm run preview)"
+      "Bash(VERCEL=1 VERCEL_ENV=production npm run preview)",
+      "Bash(curl:*)",
+      "Bash(python3:*)"
     ],
     "deny": [],
     "ask": []
