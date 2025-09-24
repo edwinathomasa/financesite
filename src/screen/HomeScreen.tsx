@@ -3,12 +3,15 @@ import MovingImages from '../components/MovingImages'
 import LinkButton from '../components/atom/LinkButton'
 import { HOME_CONTENT } from '../data/CompanyData'
 import './styling/HomeScreen.css'
+import nycImage from '../assets/homeAssets/nyc.jpg'
+import mumbaiImage from '../assets/homeAssets/mumbai.jpg'
+import kochiImage from '../assets/homeAssets/kochi.jpg'
 
 function HomeScreen() {
   const homeImages = [
-    '/src/assets/homeAssets/nyc.jpg',
-    '/src/assets/homeAssets/mumbai.jpg',
-    '/src/assets/homeAssets/kochi.jpg',
+    nycImage,
+    mumbaiImage,
+    kochiImage,
   ]
 
   const homeTexts = [
