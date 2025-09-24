@@ -1,69 +1,53 @@
-# React + TypeScript + Vite
+# AAlex Chartered Accountant - Financial Services Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional React-based website for AAlex Chartered Accountant, a comprehensive financial services firm providing accounting, tax planning, auditing, and business consulting services.
 
-Currently, two official plugins are available:
+## About AAlex
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+AAlex Chartered Accountant is a professional accounting and financial services firm established in 2024, providing comprehensive business solutions to help organizations grow and succeed.
 
-## Expanding the ESLint configuration
+### Services Offered
+- Tax Planning & Compliance
+- Financial Auditing
+- Business Consulting
+- GST Registration & Filing
+- Company Registration
+- Investment Advisory
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Locations
+We provide services across multiple locations:
+- **New York, USA** - Professional Accounting Services
+- **Mumbai, India** - Expert Financial Solutions
+- **Kochi, India** - Trusted Business Consulting
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Technology Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- **Frontend**: React 19 with TypeScript
+- **Build Tool**: Vite
+- **Routing**: React Router DOM
+- **Styling**: CSS Modules
+- **Deployment**: Vercel
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Contact Information
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Email**: info@aalexca.com
+- **Phone**: +91-11-1234-5678
+- **Address**: 123 Business District, New Delhi, India - 110001
+- **CIN**: L74999DL2023PTC123456
+- **GST Number**: 07AABCA1234B1Z5

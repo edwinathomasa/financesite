@@ -4,7 +4,11 @@
       "Bash(npm run build:*)",
       "Bash(npm run dev:*)",
       "Bash(VERCEL=1 npm run build)",
-      "Bash(npm run preview:*)"
+      "Bash(npm run preview:*)",
+      "Bash(echo:*)",
+      "Bash(VERCEL=1 echo \"VERCEL with flag: $VERCEL\")",
+      "Bash(VERCEL=1 VERCEL_ENV=production npm run build)",
+      "Bash(VERCEL=1 VERCEL_ENV=production npm run preview)"
     ],
     "deny": [],
     "ask": []
