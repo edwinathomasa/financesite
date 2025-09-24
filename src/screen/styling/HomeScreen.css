@@ -1,0 +1,11 @@
+@import '../../components/utility/variables.css';
+
+.home-content {
+  padding: 40px 20px;
+  text-align: justify;
+  max-width: 800px;
+}
+
+.home-button-container {
+  margin-top: 30px;
+}
