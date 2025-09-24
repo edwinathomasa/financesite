@@ -10,7 +10,7 @@ function AppRouter() {
   const basename = !import.meta.env.VERCEL && !import.meta.env.VERCEL_ENV ? '/financesite' : ''
 
   return (
-    <Router basename={basename}>
+    <Router>
       <Routes>
         <Route path="/" element={<HomeScreen />} />
         <Route path="/about" element={<AboutScreen />} />
